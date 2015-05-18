@@ -1,0 +1,31 @@
+# Site settings
+title: Farhadine
+email: Farhadine@gmail.com
+url: https://farhadine.com
+description: "Farhadine Graphic design, print, digital, media, stencil"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#fff100'
+
+# Footer settings
+footer: Farhadine
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://www.linkedin.com/in/farhadine
+  - title: facebook
+    url: https://www.facebook.com/farhadineh
+  - title: deviantart
+    url: http://farhadine.deviantart.com
+  - title: lastfm
+    url: http://last.fm/user/taboot666
+  - title: twitter
+    url: https://twitter.com/#	
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
