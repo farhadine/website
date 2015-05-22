@@ -1,5 +1,7 @@
 /*!
- * Based on Grayscale Bootstrap Theme 
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
 body {
@@ -7,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #000000;
 }
 
 html {
@@ -43,7 +45,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -64,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #000000;
 }
 
 .navbar-custom .navbar-brand {
@@ -121,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: #000000;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -136,8 +138,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.gif) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -246,44 +248,20 @@ a:focus {
     }
 }
 
-.about-section {
-	margin: -150px -250px 0px ;
-    padding:50px 400px 50px 250px;
-	background: white url(/img/about-bg.gif) no-repeat scroll right;
-	color: black;
-	text-align: left;
-	font-family: 'Special Elite', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:15px;
-}
-
 .content-section {
     padding-top: 100px;
 }
 
-.contact-section{
-    width: 100%;
-    padding:0;	
-	background: url(/img/intro-bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;	
-	position:relative; 
-	z-index: -2;
-}
-
 .download-section {
     width: 100%;
-    padding:0;
+    padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	position:relative; 
-	z-index: -2;	
 }
 
 #map {
@@ -307,78 +285,27 @@ a:focus {
     }
 }
 
-/* .btn {
+.btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-} */
-
-
-/* General button style (reset) */
-.btn {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 300;
-	background: none;
-	cursor: pointer;
-	padding: 8px 10px;
-	display: inline-block;
-	margin: 5px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
-    background-color: transparent;
 }
-
-.btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-/* Button 1c */
-.btn-1c:after {
-	width: 0%;
-	height: 100%;
-	top: 0;
-	left: 0;
-    background-color: {{ site.color.links }};
-}
-
-.btn-1c:hover,
-.btn-1c:active {
-    color: {{ site.color.primary-dark }};
-}
-
-.btn-1c:hover:after,
-.btn-1c:active:after {
-	width: 100%;
-}
-/* ----General button style (reset) ----*/
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
+    border: 1px solid #219ab3;
+    color: #219ab3;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid #219ab3;
     outline: 0;
-    color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.links }};
+    color: #000000;
+    background-color: #219ab3;
 }
 
 ul.banner-social-buttons {
@@ -437,21 +364,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-.typing
-{
-    width: 5em;
-    white-space:nowrap;
-    overflow:hidden;
-    -webkit-animation: type 1.5s steps(8, end);
-    animation: type 1.5s steps(8, end);
-}
-
-@keyframes type{
-    from { width: 0; }
-}
-
-@-webkit-keyframes type{
-    from { width: 0; }
 }
