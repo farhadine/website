@@ -1,30 +1,31 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/grayscale-theme"
+title: Farhadine
+email: Farhadine@gmail.com
+url: https://farhadine.com
+description: "Farhadine Graphic design, print, digital, media, stencil"
+baseurl: "/website"
 
-# Color settings
+# Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#fff100'
 
 # Footer settings
-footer: Your Website
+footer: Farhadine
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
+  - title: linkedin
+    url: http://www.linkedin.com/in/farhadine
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/farhadineh
+  - title: deviantart
+    url: http://farhadine.deviantart.com
+  - title: lastfm
+    url: http://last.fm/user/taboot666
+  - title: twitter
+    url: https://twitter.com/#	
+
 
 # Build settings
 markdown: kramdown
