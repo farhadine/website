@@ -141,7 +141,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: black url(http://farhadine.github.io/website/img/intro-bg.gif) no-repeat center center scroll;
+    background: black url(../img/intro-bg.gif) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,7 +254,7 @@ a:focus {
 .about-section {
 	margin: -150px -250px 0px ;
     padding:50px 400px 50px 250px;
-	background: white url(http://farhadine.github.io/website/img/about-bg.gif) no-repeat scroll right;
+	background: white url(../img/about-bg.gif) no-repeat scroll right;
 	color: black;
 	text-align: left;
 	font-family: 'Special Elite', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -268,7 +268,7 @@ a:focus {
 .contact-section{
     width: 100%;
     padding:0;	
-	background: url(/img/intro-bg.jpg) no-repeat center center scroll;
+	background: url(../img/intro-bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -281,7 +281,7 @@ a:focus {
     width: 100%;
     padding:0;
     color: #fff;
-    background: black url(http://farhadine.github.io/website/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: black url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
