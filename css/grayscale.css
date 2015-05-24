@@ -131,6 +131,59 @@ a:focus {
     }
 }
 
+/**    home title   **/
+.big{background:black;padding-top:60px;}
+
+.screen {
+	font-size: 140px;
+	line-height: 6px;
+	padding: 0px;
+	margin:0px;
+	mix-blend-mode: screen;
+	text-transform: uppercase;
+}
+.big:hover .screen,
+.big:hover ~ .screen {
+	line-height: 30px;
+	cursor:default;
+	-moz-transition: line-height 0.7s ease-in-out;
+	-webkit-transition: line-height .7s ease-in-out;
+	transition: line-height .7s ease-in-out;
+	}
+ 
+.big:hover .c,
+.big:hover ~ .c { 
+    transform: rotate(1deg);
+	transform-origin: 50% 50%;
+    -ms-transform: rotate(1deg) ;
+    -webkit-transform: rotate(1deg); 
+}
+.big:hover .m,
+.big:hover ~ .m {
+    transform: rotate(0.5deg);
+	transform-origin: 50% 50%;	
+	-ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg); 
+ }
+.big:hover .y,
+.big:hover ~ .y { 
+    transform: rotate(-1deg);
+	transform-origin: 50% 50%;
+    -ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg); 
+}
+.c, .m, .y {
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+.c{color:cyan; }
+.m{color:magenta; margin-left:5px }
+.y{color:yellow; margin-left:2px; }
+
+/*        */
+
 .intro {
     display: table;
     width: 100%;
@@ -166,7 +219,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 100px; 
     }
 
     .intro .intro-body .intro-text {
@@ -366,16 +419,4 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-@import url(http://fonts.googleapis.com/css?family=Oranienbaum);
-
-.screen {
-  font-family: 'Oranienbaum', Montserrat,Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-  font-size: 120px;
-  mix-blend-mode: screen;
-  padding: 0;
-  margin: -10px -3px -5px 0px;
-  line-height:20px 
-  
-}
 
