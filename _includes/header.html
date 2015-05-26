@@ -1,4 +1,53 @@
     <!-- Intro Header -->
+
+<style type="text/css">
+.big{background:black;padding-top:60px;}
+.screen {
+	font-size: 140px;
+	line-height: 6px;
+	padding: 0px;
+	margin:0px;
+	mix-blend-mode: screen;
+	text-transform: uppercase;
+}
+.big:hover .screen,
+.big:hover ~ .screen {
+	line-height: 30px;
+	cursor:default;
+	-moz-transition: line-height 0.7s ease-in-out;
+	-webkit-transition: line-height .7s ease-in-out;
+	transition: line-height .7s ease-in-out;
+	}
+.big:hover .c,
+.big:hover ~ .c { 
+    transform: rotate(1deg);
+	transform-origin: 50% 50%;
+    -ms-transform: rotate(1deg) ;
+    -webkit-transform: rotate(1deg); 
+}
+.big:hover .m,
+.big:hover ~ .m {
+    transform: rotate(0.5deg);
+	transform-origin: 50% 50%;	
+	-ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg); 
+ }
+.big:hover .y,
+.big:hover ~ .y { 
+    transform: rotate(-1deg);
+	transform-origin: 50% 50%;
+    -ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg); 
+}
+.c, .m, .y {
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+.c{color:cyan; }
+.m{color:magenta; margin-left:5px }
+.y{color:yellow; margin-left:2px; }
+</style>
     <header class="intro">
         <div class="intro-body">
             <div class="container">
@@ -7,9 +56,10 @@
 					<div class="big">
 						<h1 class="brand-heading screen c">Farhadine</h1>
 						<h1 class="brand-heading screen m">Farhadine</h1>
-						<h1 class="brand-heading screen y" >Farhadine</h1>
+						<h1 class="brand-heading screen y">Farhadine</h1>
 					</div>
-                        <p class="intro-text">Hello</p>
+						<p>&nbsp;</p>
+                        <p class="intro-text">GD</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
