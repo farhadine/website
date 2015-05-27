@@ -14,14 +14,17 @@
 .big:hover ~ .screen {
 	line-height: 0.3em;
 	cursor:default;
+	animation-name: animationFrames;
 	-webkit-animation-name: animationFrames;
--webkit-animation-duration: 1s;
--webkit-animation-timing-function: linear;
--webkit-animation-iteration-count: 1;
-animation-name: animationFrames;
-animation-duration: 1s;
-animation-timing-function: linear;
-animation-iteration-count: 1;
+	-moz-animation-name: animationFrames;
+	-o-animation-name: animationFrames;
+	-ms-animation-name: animationFrames;
+  animation: animationFrames linear 1s;
+  -webkit-animation: animationFrames linear 1s;
+  -moz-animation: animationFrames linear 1s;
+  -o-animation: animationFrames linear 1s;
+  -ms-animation: animationFrames linear 1s;
+
 	}
 .big:hover .c,
 .big:hover ~ .c { 
@@ -82,9 +85,9 @@ animation-iteration-count: 1;
   40% {    transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;  }
   50% {    transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;  }
   60% {    transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;  }
-  70% {    transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;  }
-  80% {    transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;  }
-  90% {    transform:  rotate(3deg) scaleX(1.10) scaleY(1.10) ;  }
+  70% {    transform:  rotate(3deg) scaleX(1.15) scaleY(1.15) ;  }
+  80% {    transform:  rotate(-3deg) scaleX(1.10) scaleY(1.10) ;  }
+  90% {    transform:  rotate(3deg) scaleX(1.05) scaleY(1.05) ;  }
   100% {   transform:  rotate(0deg) scaleX(1) scaleY(1) ;  }
 }
 
